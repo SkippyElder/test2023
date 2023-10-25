@@ -2,6 +2,9 @@
 using namespace std;
 
 int main(){
-    cout << "Goodbye world\n";
+    while(1)
+    {
+    cout << "Goodbye cruel world\n";
+    }
     return 0;
 }
