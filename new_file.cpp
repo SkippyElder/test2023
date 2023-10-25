@@ -1,6 +1,5 @@
 #include <iostream>
-#include <chrono>
-#include <thread>
+#include <unistd.h>
 using namespace std;
 
 int main(){
@@ -15,9 +14,11 @@ int main(){
     else 
     {
     cout << "Goodbye cruel world\n";
+    sleep(3);//sleeps for 3 second
     while (1)
     {
         cout << "*BANG*\n";
+        sleep(1);
     }  
     }
     return 0;
